@@ -113,16 +113,16 @@ export default function HomePage() {
           </div>
           
           <h1 className="text-5xl lg:text-7xl font-black leading-tight">
-            <span className="block">AFLÓJALE</span>
-            <span className="block text-yellow-400">A LA TOTI</span>
-            <span className="block text-2xl lg:text-3xl font-medium mt-2 text-teal-300">
+            <span className="block text-black">AFLÓJALE</span>
+            <span className="block text-white">A LA TOTI</span>
+            <span className="block text-2xl lg:text-3xl font-medium mt-2 text-black">
               con Leonel Lombardo
             </span>
           </h1>
         </div>
 
-        <p className="text-xl lg:text-2xl text-white/90 leading-relaxed max-w-xl">
-          Entrena desde casa con el método que ya transformó a <span className="font-bold text-yellow-400">+5,000 personas</span>. 
+        <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-xl">
+          Entrena desde casa con el método que ya transformó a <span className="font-bold text-black">+5,000 personas</span>. 
           Rutinas personalizadas, nutrición adaptada y seguimiento 24/7.
         </p>
 
@@ -138,16 +138,16 @@ export default function HomePage() {
         {/* Stats */}
         <div className="flex flex-wrap gap-8 pt-8 border-t border-white/20">
           <div className="text-center">
-            <div className="text-3xl font-black text-yellow-400">5K+</div>
-            <div className="text-sm text-white/80">Transformaciones</div>
+            <div className="text-3xl font-black text-black">5K+</div>
+            <div className="text-sm text-white">Transformaciones</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-black text-teal-400">98%</div>
-            <div className="text-sm text-white/80">Satisfacción</div>
+            <div className="text-3xl font-black text-white">98%</div>
+            <div className="text-sm text-white">Satisfacción</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-black text-yellow-400">24/7</div>
-            <div className="text-sm text-white/80">Soporte</div>
+            <div className="text-3xl font-black text-black">24/7</div>
+            <div className="text-sm text-white">Soporte</div>
           </div>
         </div>
       </div>
@@ -162,19 +162,19 @@ export default function HomePage() {
             </div>
             
             <div className="space-y-4">
-              <div className="flex items-center text-white/90">
+              <div className="flex items-center text-white">
                 <span className="text-green-400 mr-3">✓</span>
                 Rutina adaptada a tu nivel
               </div>
-              <div className="flex items-center text-white/90">
+              <div className="flex items-center text-white">
                 <span className="text-green-400 mr-3">✓</span>
                 Plan nutricional personalizado
               </div>
-              <div className="flex items-center text-white/90">
+              <div className="flex items-center text-white">
                 <span className="text-green-400 mr-3">✓</span>
                 Seguimiento con Leonel
               </div>
-              <div className="flex items-center text-white/90">
+              <div className="flex items-center text-white">
                 <span className="text-green-400 mr-3">✓</span>
                 Comunidad exclusiva
               </div>
