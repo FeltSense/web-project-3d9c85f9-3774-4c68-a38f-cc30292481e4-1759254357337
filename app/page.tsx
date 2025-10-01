@@ -93,12 +93,12 @@ export default function HomePage() {
 </nav>
       
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 overflow-hidden">
+      <section className="relative min-h-screen bg-black overflow-hidden">
   {/* Animated Background Elements */}
   <div className="absolute inset-0">
-    <div className="absolute top-20 left-10 w-32 h-32 bg-yellow-400 rounded-full opacity-20 animate-pulse"></div>
-    <div className="absolute bottom-32 right-16 w-24 h-24 bg-teal-400 rounded-full opacity-30 animate-bounce"></div>
-    <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-white rounded-full opacity-10 animate-ping"></div>
+    <div className="absolute top-20 left-10 w-32 h-32 bg-gray-800 rounded-full opacity-20 animate-pulse"></div>
+    <div className="absolute bottom-32 right-16 w-24 h-24 bg-gray-700 rounded-full opacity-30 animate-bounce"></div>
+    <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-gray-600 rounded-full opacity-10 animate-ping"></div>
   </div>
 
   <div className="relative z-10 container mx-auto px-6 py-20 flex items-center min-h-screen">
@@ -113,16 +113,16 @@ export default function HomePage() {
           </div>
           
           <h1 className="text-5xl lg:text-7xl font-black leading-tight">
-            <span className="block text-black">AFLÓJALE</span>
+            <span className="block text-white">AFLÓJALE</span>
             <span className="block text-white">A LA TOTI</span>
-            <span className="block text-2xl lg:text-3xl font-medium mt-2 text-black">
+            <span className="block text-2xl lg:text-3xl font-medium mt-2 text-white">
               con Leonel Lombardo
             </span>
           </h1>
         </div>
 
         <p className="text-xl lg:text-2xl text-white leading-relaxed max-w-xl">
-          Entrena desde casa con el método que ya transformó a <span className="font-bold text-black">+5,000 personas</span>. 
+          Entrena desde casa con el método que ya transformó a <span className="font-bold text-white">+5,000 personas</span>. 
           Rutinas personalizadas, nutrición adaptada y seguimiento 24/7.
         </p>
 
@@ -138,7 +138,7 @@ export default function HomePage() {
         {/* Stats */}
         <div className="flex flex-wrap gap-8 pt-8 border-t border-white/20">
           <div className="text-center">
-            <div className="text-3xl font-black text-black">5K+</div>
+            <div className="text-3xl font-black text-white">5K+</div>
             <div className="text-sm text-white">Transformaciones</div>
           </div>
           <div className="text-center">
@@ -146,7 +146,7 @@ export default function HomePage() {
             <div className="text-sm text-white">Satisfacción</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-black text-black">24/7</div>
+            <div className="text-3xl font-black text-white">24/7</div>
             <div className="text-sm text-white">Soporte</div>
           </div>
         </div>
@@ -204,6 +204,72 @@ export default function HomePage() {
     </svg>
   </div>
 </section>
+
+      {/* Your Routine Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Your Routine</h2>
+            <p className="text-xl text-gray-600">Simple 2-step routine to transform your fitness</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Step 1 */}
+            <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-8 shadow-lg">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                  1
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Morning Workout</h3>
+              </div>
+              <p className="text-gray-700 mb-4">
+                Start your day with a 30-minute high-intensity workout designed to boost your metabolism and energy levels.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-center">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  Warm-up exercises
+                </li>
+                <li className="flex items-center">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  Core strength training
+                </li>
+                <li className="flex items-center">
+                  <span className="text-blue-600 mr-2">✓</span>
+                  Cardio burst
+                </li>
+              </ul>
+            </div>
+
+            {/* Step 2 */}
+            <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-8 shadow-lg">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                  2
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900">Evening Recovery</h3>
+              </div>
+              <p className="text-gray-700 mb-4">
+                Wind down with a 20-minute recovery session focused on flexibility, stretching, and muscle relaxation.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-center">
+                  <span className="text-purple-600 mr-2">✓</span>
+                  Dynamic stretching
+                </li>
+                <li className="flex items-center">
+                  <span className="text-purple-600 mr-2">✓</span>
+                  Yoga poses
+                </li>
+                <li className="flex items-center">
+                  <span className="text-purple-600 mr-2">✓</span>
+                  Breathing exercises
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* Services Section */}
       <section className="py-16 bg-gradient-to-br from-orange-50 to-red-50">
