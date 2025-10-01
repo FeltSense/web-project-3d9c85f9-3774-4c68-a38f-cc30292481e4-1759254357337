@@ -11,12 +11,6 @@ export default function Home() {
   });
   const [showModal, setShowModal] = useState(false);
 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: ''
-  });
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -54,7 +48,6 @@ export default function Home() {
           </div>
         </div>
       )}
-    <>
       {/* Success Modal */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -225,7 +218,7 @@ export default function Home() {
         </div>
       </div>
 
-    <main className="min-h-screen">
+      <main className="min-h-screen">
       {/* Hero Section - Updated with black background and white text */}
       <section className="bg-black text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
@@ -591,7 +584,7 @@ export default function Home() {
         </div>
       </section>
 
-    </main>
+      </main>
     </>
   )
 }
