@@ -197,7 +197,6 @@ export default function Home() {
         </div>
       </div>
 
-    </>
     <main className="min-h-screen">
       {/* Hero Section - Updated with black background and white text */}
       <section className="bg-black text-white py-20 px-4">
@@ -492,5 +491,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   )
 }
